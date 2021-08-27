@@ -9,7 +9,7 @@ func main() {
 	fmt.Println(m["apple"]) //appleだけ出力
 	m["banana"] = 300       //bananaの数値を変更
 	fmt.Println(m)
-	m["new"] = 500 //新しいデータを入れる
+	m["grape"] = 500 //新しいデータを入れる
 	fmt.Println(m)
 
 	v, ok := m["apple"]

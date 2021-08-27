@@ -14,7 +14,7 @@ func main() {
 	fmt.Println(n[:])
 
 	// 代入
-	n[2] = 100
+	n = append(n, 100)
 	fmt.Println(n)
 
 	var board = [][]int{
